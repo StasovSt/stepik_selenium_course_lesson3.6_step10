@@ -3,7 +3,7 @@
 from selenium.webdriver.common.by import By
 import time
 
-def test_test1(browser):
+def test_add_in_basket_is_present(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(10)
